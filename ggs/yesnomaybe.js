@@ -29,9 +29,9 @@ var Answers = {
 var HOST = '//hangoutsapi.appspot.com/static/yesnomaybe';
 
 var DEFAULT_ICONS = {};
-DEFAULT_ICONS[Answers.YES] = HOST + '/yes.png';
+DEFAULT_ICONS[Answers.YES] = HOST + '/no.png';
 DEFAULT_ICONS[Answers.NO] = HOST + '/no.png';
-DEFAULT_ICONS[Answers.MAYBE] = HOST + '/maybe.png';
+DEFAULT_ICONS[Answers.MAYBE] = HOST + '/no.png';
 
 var DEFAULT_STATUS = {};
 DEFAULT_STATUS[Answers.YES] = 'Yes';
